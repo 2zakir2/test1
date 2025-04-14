@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আপনার নাম - পোর্টফোলিও</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-b3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">আপনার লোগো</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">হোম</a></li>
+                    <li><a href="#about">সম্পর্কে</a></li>
+                    <li><a href="#skills">দক্ষতা</a></li>
+                    <li><a href="#portfolio">পোর্টফোলিও</a></li>
+                    <li><a href="#contact">যোগাযোগ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>হ্যালো, আমি [ জাকির ]</h1>
+                <p>[আপনার পেশা] | [আপনার বিশেষত্ব]</p>
+                <a href="#portfolio" class="button">আমার কাজ দেখুন</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>সম্পর্কে</h2>
+            <p>আপনার সম্পর্কে কিছু তথ্য লিখুন। আপনার অভিজ্ঞতা, আগ্রহ এবং আপনি কি করেন তা এখানে তুলে ধরুন।</p>
+            <div class="personal-info">
+                <p><strong>নাম:</strong> [আপনার পুরো নাম]</p>
+                <p><strong>ইমেইল:</strong> [আপনার ইমেইল]</p>
+                <p><strong>ফোন:</strong> [আপনার ফোন নম্বর]</p>
+                <p><strong>অবস্থান:</strong> [আপনার অবস্থান]</p>
+            </div>
+            <a href="[আপনার সিভি লিঙ্ক]" class="button">আমার সিভি ডাউনলোড করুন</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>দক্ষতা</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>পোর্টফোলিও</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="[প্রজেক্ট ১ এর ছবি]" alt="প্রজেক্ট ১">
+                    <div class="overlay">
+                        <h3>প্রজেক্ট ১ এর নাম</h3>
+                        <p>প্রজেক্ট ১ এর সংক্ষিপ্ত বিবরণ</p>
+                        <a href="[প্রজেক্ট ১ এর লিঙ্ক]" target="_blank">দেখুন</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="[প্রজেক্ট ২ এর ছবি]" alt="প্রজেক্ট ২">
+                    <div class="overlay">
+                        <h3>প্রজেক্ট ২ এর নাম</h3>
+                        <p>প্রজেক্ট ২ এর সংক্ষিপ্ত বিবরণ</p>
+                        <a href="[প্রজেক্ট ২ এর লিঙ্ক]" target="_blank">দেখুন</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>যোগাযোগ</h2>
+            <p>আমার সাথে যোগাযোগ করতে চান? নীচের ফর্মটি পূরণ করুন অথবা সরাসরি ইমেইল করুন।</p>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">নাম:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">ইমেইল:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">বার্তা:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="button">বার্তা পাঠান</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> [আপনার ইমেইল]</p>
+                <p><i class="fas fa-phone"></i> [আপনার ফোন নম্বর]</p>
+                <p><i class="fas fa-linkedin"></i> [আপনার লিঙ্কডইন প্রোফাইল লিঙ্ক]</p>
+                <p><i class="fas fa-github"></i> [আপনার গিটহাব প্রোফাইল লিঙ্ক]</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; [বর্তমান বছর] [আপনার নাম]। সর্বস্বত্ব সংরক্ষিত।</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
